@@ -1,0 +1,22 @@
+자율주행
+
+사람의 조작없이 스스로 주행하는 차량을 만들어보고자 함.
+
+당초 기획은 하드웨어까지 직접 제작하는 것이었으나, 
+하드웨어 관련 문제와 투자하는 자원 대비 이익률이 매우 저조할 것으로 판단 되어,
+시중 자동차 시뮬레이터를 사용해 개발하기로 함.
+
+여러 제약조건과 환경등을 미루어 보아 판단 했을 때 자동차 시뮬레이터는
+다른 차량과 여러 시설물, 보행자등의 장애물이 기본적으로 구현이 되어있는 
+GTA5(by 락스타 게임즈)를 사용하고자 함.
+
+차량 시뮬레이터를 사용한 자율주행 프로그램 연구 및 개발을 통해
+OPENCV의 Object Detection Algorism,
+Hough transform을 적용한 차선 인식,
+User의 Key Interrupt을 기반으로한 Supervised Learning, 
+학습된 데이터를 Classification 및 Prediction하는
+Inception과 같은 Deep-Learning Neural Network Algorism,
+그리고 나아가 YOLO V3와 같은 진화된 Object Detection 알고리즘을 적용하여 
+object가 무엇인지 파악하고 그 상황에 맞는 행동, 
+예를 들어 무조건 피해서 달리는 것이 아닌 정지하거나, 되돌아가는 등의 선택을 
+스스로 학습하고 동작하는 Unsupervised Learning을 연구하고자 한다.
